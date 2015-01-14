@@ -19,6 +19,6 @@ int main()
 #include<stdio.h>
 int main ()
 {
-printf ("hello world")
+printf("quicker version");
 return 0;
 }
