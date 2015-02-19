@@ -2,6 +2,7 @@
 
 int main()
 {  
+<<<<<<< HEAD
           int a, b, c, d;
           printf("Enter two numbers\n");
           scanf("%d%d%d", &a, &b);
@@ -9,6 +10,14 @@ int main()
           d = a + b + c;
           c = a - b;
  
+=======
+          int a, b, c;
+          printf("Enter two numbers\n");
+          scanf("%d%d", &a, &b);
+
+          c = a - b;
+	  c = a + b; 
+>>>>>>> testing
           
           printf("sum of numbers = %d\n", c);
           
