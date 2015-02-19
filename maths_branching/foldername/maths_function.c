@@ -1,25 +1,14 @@
 #include<stdio.h>
-//This is the line causing issue in the master branch
+
 int main()
 {  
-<<<<<<< HEAD
           int a, b, c, d;
           printf("Enter two numbers\n");
-          scanf("%d%d%d", &a, &b);
+          scanf("%d%d%d", &a, &b, &c);
 
-          d = a + b + c;
-          c = a - b;
- 
-=======
-          int a, b, c;
-          printf("Enter two numbers\n");
-          scanf("%d%d", &a, &b);
-
-          c = a - b;
-	  c = a + b; 
->>>>>>> testing
+          d = a + b + c;        
           
-          printf("sum of numbers = %d\n", c);
+          printf("sum of numbers = %d\n", d);
           
           return 0;
 }
