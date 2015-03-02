@@ -2,13 +2,11 @@
 
 int main()
 {  
-          int a, b, c;
-          printf("Enter two numbers\n");
-          scanf("%d%d", &a, &b);
-
-          c = a - b; 
+          int a, b, c, d, e;
+          printf("Enter five numbers\n");
+          scanf("%d%d", &a, &b, &c, &d, &e);
           
-          printf("sum of numbers = %d\n", c);
+          printf("numbers are %d\n", a, b, c, d, e);
           
           return 0;
 }
